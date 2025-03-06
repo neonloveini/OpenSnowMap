@@ -6088,7 +6088,7 @@
       "layout": {
         "symbol-sort-key": ["to-number", ["get", "rank"]],
         "text-anchor": "bottom",
-        "text-field": ["coalesce", ["get", "name:en"], ["get", "name"]],
+        "text-field": ["coalesce", ["get", "name:ru"], ["get", "name"]],
         "text-font": ["Open Sans Semibold", "Noto Sans Regular"],
         "text-max-width": 8,
         "text-offset": [0, 0],
@@ -6142,7 +6142,7 @@
         "icon-optional": false,
         "symbol-sort-key": ["to-number", ["get", "rank"]],
         "text-anchor": "bottom",
-        "text-field": ["coalesce", ["get", "name:en"], ["get", "name"]],
+        "text-field": ["coalesce", ["get", "name:ru"], ["get", "name"]],
         "text-font": ["Open Sans Semibold", "Noto Sans Regular"],
         "text-max-width": 8,
         "text-offset": [0, 0],
@@ -6174,7 +6174,7 @@
         "icon-size": 1,
         "symbol-sort-key": ["to-number", ["get", "rank"]],
         "text-anchor": "bottom",
-        "text-field": "{name:en}",
+        "text-field": "{name:ru}",
         "text-font": ["Open Sans Semibold", "Noto Sans Regular"],
         "text-max-width": 8,
         "text-offset": [0, 0],
@@ -6200,7 +6200,7 @@
       "filter": ["all", ["==", "class", "country"], ["!=", "iso_a2", "VA"]],
       "layout": {
         "symbol-sort-key": ["to-number", ["get", "rank"]],
-        "text-field": "{name:en}",
+        "text-field": "{name:ru}",
         "text-font": ["Open Sans Semibold", "Noto Sans Bold"],
         "text-max-width": 6.25,
         "text-size": [
